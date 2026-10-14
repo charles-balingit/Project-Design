@@ -20,8 +20,8 @@ function App() {
   }, [])
 
   return (
-    <div style={{ textAlign: 'Left' }}>
-      <h1>Oil Mapping and Recovery System</h1>
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>React + Flask Web Application</h1>
       {loading ? (
         <p>Loading data from backend...</p>
       ) : (
